@@ -32,13 +32,11 @@ requirements:
     - setuptools
     - numpy
     - scipy
-    - matplotlib
 
   run:
     - python >=2.7
     - numpy
     - scipy
-    - matplotlib
 
 test:
   # Python imports

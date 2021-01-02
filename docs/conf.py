@@ -18,10 +18,9 @@ import os
 
 import mock
 
-MOCK_MODULES = ['numpy', 'scipy', 'matplotlib', 'matplotlib.pyplot',
-                'scipy.linalg', 'numpy.linalg', 'matplotlib.pyplot',
+MOCK_MODULES = ['numpy', 'scipy', 'scipy.linalg', 'numpy.linalg',
                 'numpy.random', 'scipy.sparse', 'scipy.sparse.linalg',
-                'scipy.stats', 'matplotlib.patches', 'scipy.ndimage.filters',
+                'scipy.stats', 'scipy.ndimage.filters',
                 'scipy.ndimage.interpolation', 'scipy.ndimage']
 
 for mod_name in MOCK_MODULES:
